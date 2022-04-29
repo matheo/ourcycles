@@ -12,6 +12,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
+    "firestore:sync": "nx run website:firebase --cmd firestore:indexes > apps/website/firestore.indexes.json",
+    "firestore:deploy": "nx run website:firebase --cmd='deploy --only firestore:rules'",
     "postinstall": "ngcc --properties es2015 browser module main"
   },
   "dependencies": {
