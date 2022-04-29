@@ -7,6 +7,8 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class WebLayoutMenuComponent implements OnInit {
+  fillerNav = Array.from({length: 7}, (_, i) => `Nav Item ${i + 1}`);
+
   constructor() {}
 
   ngOnInit(): void {}
