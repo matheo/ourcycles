@@ -1,16 +1,30 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
+import { WebLayoutModule, WebLayoutWrapperComponent } from '@ourcycles/web-layout';
 
 import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
-import { RouterModule } from '@angular/router';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: WebLayoutWrapperComponent,
+    children: [
+      {
+        path: '',
+        component: AppComponent,
+      }
+    ]
+  }
+];
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
+    RouterModule.forRoot(routes, { initialNavigation: 'enabledBlocking' }),
+    WebLayoutModule,
   ],
+  declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
