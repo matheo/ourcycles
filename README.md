@@ -1,7 +1,6 @@
 # OurCycles
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[![MIT badge](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 App built with Angular and Three.js to track and gain understanding of our Cycles.
 
@@ -54,16 +53,10 @@ This project follows the [all-contributors](https://github.com/all-contributors/
   Close the IDE, delete the `.idea` directory, delete the all `.iml` files, run `<app>:mobile:cap open android` again.  
   <https://stackoverflow.com/a/53920901/885259>
 
-## License
+## Thanks
 
-[MIT](LICENSE)
-
-[1]: https://github.com/sanderblue/solar-system-threejs
-[2]: https://github.com/JohnnyDevNull/ng-three-template
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+- Sander Blue with his [scaled solar system][1]
+- Philipp John with his [angular-three.js template][2]
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -79,4 +72,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+
+## License
+
+[MIT](LICENSE)
+
+[1]: https://github.com/sanderblue/solar-system-threejs
+[2]: https://github.com/JohnnyDevNull/ng-three-template
