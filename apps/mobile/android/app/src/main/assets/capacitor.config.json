@@ -1,0 +1,6 @@
+{
+	"appId": "co.ourcycles",
+	"appName": "Our Cycles",
+	"webDir": "../../dist/apps/mobile",
+	"bundledWebRuntime": false
+}
