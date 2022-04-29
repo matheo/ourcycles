@@ -7,6 +7,14 @@ App built with Angular and Three.js
 This project uses `yarn` as dependency manager.  
 After run `yarn` you can execute the available scripts of `package.json`
 
+## Usage
+
+First ensure that the project has been built `nx build mobile` and copy the build output
+to the native platforms with `nx run mobile:copy:android` or `nx run mobile:copy:ios`.
+
+To sync the output and the native dependencies use `nx run mobile:sync:android`.
+Finally open the native platform in its respective IDE with `nx run mobile:open:android`.
+
 ## Thanks
 
 * Sander Blue with his [scaled solar system][1]

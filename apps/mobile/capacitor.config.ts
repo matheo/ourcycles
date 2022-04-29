@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'mobile',
+  appId: 'co.ourcycles',
+  appName: 'Our Cycles',
   webDir: '../../dist/apps/mobile',
   bundledWebRuntime: false,
 };
