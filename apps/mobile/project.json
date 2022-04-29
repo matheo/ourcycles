@@ -184,6 +184,12 @@
           "cmd": "update android"
         }
       }
+    },
+    "firebase": {
+      "executor": "@nxtend/firebase:firebase",
+      "options": {
+        "cmd": "--help"
+      }
     }
   },
   "tags": ["app"]
