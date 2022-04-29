@@ -1,13 +1,22 @@
 # OurCycles
 
-App built with Angular and Three.js
+App built with Angular and Three.js to track and gain understanding of our Cycles.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Development](#development)
+- [Gratitude](#gratitude)
+- [Contributors](#contributors)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
 
 ## Installation
 
 This project uses `yarn` as dependency manager.  
 After run `yarn` you can execute the available scripts of `package.json`
 
-## Usage
+## Development
 
 First ensure that the project has been built `nx build mobile` and copy the build output
 to the native platforms with `nx run mobile:copy:android` or `nx run mobile:copy:ios`.
@@ -18,6 +27,23 @@ Finally open the native platform in its respective IDE with `nx run mobile:open:
 Running capacitor commands with `nx run mobile:cap --cmd="add ios"`
 and `firebase-tools` (installed globally) with `nx run $project:firebase --cmd $command`.
 
+## Contributing
+
+- Star this GitHub repo :star:
+- Share ideas and experience in the [Discussions](https://github.com/matheo/ourcycles/discussions)
+- Create pull requests to add or extend the existing features
+- Report any existing issues that you find
+
+## Gratitude
+
+- Sander Blue for his [scaled solar system][1]
+- Philipp John with his [angular-three.js template][2]
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+
 ## Troubleshooting
 
 - DO NOT update the Android Graddle version even if Android Studio insists. Capacitor takes care of the working version.
@@ -25,16 +51,9 @@ and `firebase-tools` (installed globally) with `nx run $project:firebase --cmd $
   Close the IDE, delete the `.idea` directory, delete the all `.iml` files, run `<app>:mobile:cap open android` again.  
   <https://stackoverflow.com/a/53920901/885259>
 
-## Thanks
+## License
 
-- Sander Blue with his [scaled solar system][1]
-- Philipp John with his [angular-three.js template][2]
-
-## ToDo
-
-- Setup Github Actions with cached dependencies
-- Publish beta app on Google Play Store
-- Publish website
+[MIT](LICENSE)
 
 [1]: https://github.com/sanderblue/solar-system-threejs
 [2]: https://github.com/JohnnyDevNull/ng-three-template
