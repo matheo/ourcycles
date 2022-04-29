@@ -13,8 +13,20 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
+                "sourceTag": "e2e",
                 "onlyDependOnLibsWithTags": ["*"]
+              },
+              {
+                "sourceTag": "app",
+                "onlyDependOnLibsWithTags": ["api", "user"]
+              },
+              {
+                "sourceTag": "web",
+                "onlyDependOnLibsWithTags": ["api", "user"]
+              },
+              {
+                "sourceTag": "user",
+                "onlyDependOnLibsWithTags": ["api"]
               }
             ]
           }

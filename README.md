@@ -15,6 +15,8 @@ to the native platforms with `nx run mobile:copy:android` or `nx run mobile:copy
 To sync the output and the native dependencies use `nx run mobile:sync:android`.
 Finally open the native platform in its respective IDE with `nx run mobile:open:android`.
 
+Running capacitor commands with `nx run mobile:cap --cmd="add ios"`.
+
 ## Thanks
 
 * Sander Blue with his [scaled solar system][1]
