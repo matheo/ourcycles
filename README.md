@@ -8,8 +8,8 @@ App built with Angular and Three.js to track and gain understanding of our Cycle
 
 - [Installation](#installation)
 - [Development](#development)
+- [Contributing](#contributing)
 - [Gratitude](#gratitude)
-- [Contributors](#contributors)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
 
@@ -42,23 +42,6 @@ and `firebase-tools` (installed globally) with `nx run $project:firebase --cmd $
 - Philipp John with his [angular-three.js template][2]
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
-
-## Troubleshooting
-
-- DO NOT update the Android Graddle version even if Android Studio insists. Capacitor takes care of the working version.
-- Android Studio complaining about non-Gradle modules next to Android-Gradle modules:  
-  Close the IDE, delete the `.idea` directory, delete the all `.iml` files, run `<app>:mobile:cap open android` again.  
-  <https://stackoverflow.com/a/53920901/885259>
-
-## Thanks
-
-- Sander Blue with his [scaled solar system][1]
-- Philipp John with his [angular-three.js template][2]
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
@@ -73,6 +56,13 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+
+## Troubleshooting
+
+- DO NOT update the Android Graddle version even if Android Studio insists. Capacitor takes care of the working version.
+- Android Studio complaining about non-Gradle modules next to Android-Gradle modules:  
+  Close the IDE, delete the `.idea` directory, delete the all `.iml` files, run `<app>:mobile:cap open android` again.  
+  <https://stackoverflow.com/a/53920901/885259>
 
 ## License
 
