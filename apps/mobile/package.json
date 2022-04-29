@@ -1,5 +1,6 @@
 {
-  "name": "mobile",
+  "name": "@ourcycles/mobile",
+  "private": true,
   "devDependencies": {
     "@capacitor/cli": "^3.2.5"
   }
