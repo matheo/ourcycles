@@ -4,6 +4,7 @@
     "mobile": "apps/mobile",
     "mobile-e2e": "apps/mobile-e2e",
     "user-auth": "libs/user/auth",
+    "web-layout": "libs/web/layout",
     "website": "apps/website",
     "website-e2e": "apps/website-e2e"
   }

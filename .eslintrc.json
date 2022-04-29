@@ -18,11 +18,11 @@
               },
               {
                 "sourceTag": "app",
-                "onlyDependOnLibsWithTags": ["api", "user"]
+                "onlyDependOnLibsWithTags": ["api", "user", "app"]
               },
               {
                 "sourceTag": "web",
-                "onlyDependOnLibsWithTags": ["api", "user"]
+                "onlyDependOnLibsWithTags": ["api", "user", "web"]
               },
               {
                 "sourceTag": "user",
