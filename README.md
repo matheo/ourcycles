@@ -1,5 +1,7 @@
 # OurCycles
 
+[![MIT badge](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 App built with Angular and Three.js to track and gain understanding of our Cycles.
 
 ## Table of Contents
@@ -50,6 +52,27 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - Android Studio complaining about non-Gradle modules next to Android-Gradle modules:  
   Close the IDE, delete the `.idea` directory, delete the all `.iml` files, run `<app>:mobile:cap open android` again.  
   <https://stackoverflow.com/a/53920901/885259>
+
+## Thanks
+
+- Sander Blue with his [scaled solar system][1]
+- Philipp John with his [angular-three.js template][2]
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://matheo.co"><img src="https://avatars.githubusercontent.com/u/260185?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mateo Tibaquirá</b></sub></a><br /><a href="#projectManagement-matheo" title="Project Management">📆</a> <a href="#tool-matheo" title="Tools">🔧</a> <a href="#ideas-matheo" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
 
 ## License
 
