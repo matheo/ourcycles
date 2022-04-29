@@ -18,16 +18,23 @@ Finally open the native platform in its respective IDE with `nx run mobile:open:
 Running capacitor commands with `nx run mobile:cap --cmd="add ios"`
 and `firebase-tools` (installed globally) with `nx run $project:firebase --cmd $command`.
 
+## Troubleshooting
+
+- DO NOT update the Android Graddle version even if Android Studio insists. Capacitor takes care of the working version.
+- Android Studio complaining about non-Gradle modules next to Android-Gradle modules:  
+  Close the IDE, delete the `.idea` directory, delete the all `.iml` files, run `<app>:mobile:cap open android` again.  
+  <https://stackoverflow.com/a/53920901/885259>
+
 ## Thanks
 
-* Sander Blue with his [scaled solar system][1]
-* Philipp John with his [angular-three.js template][2]
+- Sander Blue with his [scaled solar system][1]
+- Philipp John with his [angular-three.js template][2]
 
 ## ToDo
 
-* Setup Github Actions with cached dependencies
-* Publish beta app on Google Play Store
-* Publish website on Firebase(?)
+- Setup Github Actions with cached dependencies
+- Publish beta app on Google Play Store
+- Publish website
 
 [1]: https://github.com/sanderblue/solar-system-threejs
 [2]: https://github.com/JohnnyDevNull/ng-three-template
