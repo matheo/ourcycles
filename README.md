@@ -15,7 +15,8 @@ to the native platforms with `nx run mobile:copy:android` or `nx run mobile:copy
 To sync the output and the native dependencies use `nx run mobile:sync:android`.
 Finally open the native platform in its respective IDE with `nx run mobile:open:android`.
 
-Running capacitor commands with `nx run mobile:cap --cmd="add ios"`.
+Running capacitor commands with `nx run mobile:cap --cmd="add ios"`
+and `firebase-tools` (installed globally) with `nx run $project:firebase --cmd $command`.
 
 ## Thanks
 

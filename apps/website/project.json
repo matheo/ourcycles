@@ -82,6 +82,12 @@
         "jestConfig": "apps/website/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "firebase": {
+      "executor": "@nxtend/firebase:firebase",
+      "options": {
+        "cmd": "--help"
+      }
     }
   },
   "tags": ["web"]
