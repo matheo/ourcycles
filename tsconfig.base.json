@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@ourcycles/user-auth": ["libs/user/auth/src/index.ts"],
-      "@ourcycles/web-layout": ["libs/web/layout/src/index.ts"]
+      "@ourcycles/web-layout": ["libs/web/layout/src/index.ts"],
+      "@ourcycles/web-profile": ["libs/web/profile/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

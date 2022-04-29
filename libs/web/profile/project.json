@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/profile",
+  "sourceRoot": "libs/web/profile/src",
+  "prefix": "wp",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/profile"],
+      "options": {
+        "jestConfig": "libs/web/profile/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/profile/src/**/*.ts",
+          "libs/web/profile/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["web"]
+}
