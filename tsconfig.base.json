@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ourcycles/auth": ["libs/auth/src/index.ts"]
+      "@ourcycles/user-auth": ["libs/user/auth/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
