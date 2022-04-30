@@ -1,0 +1,8 @@
+@use '@angular/material' as mat;
+@use './variables' as *;
+
+@include mat.core();
+
+@include mat.all-component-colors($theme);
+@include mat.all-component-typographies($theme);
+@include mat.all-component-themes($theme);

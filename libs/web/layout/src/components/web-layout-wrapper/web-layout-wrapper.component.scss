@@ -1,3 +1,6 @@
+@use 'sass:map';
+@use 'ui/material/variables' as *;
+
 :host {
   display: block;
 
@@ -34,5 +37,15 @@
     /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
        causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;
+  }
+
+  .wl-sidenav {
+    background: $primary;
+
+    ::ng-deep {
+      .mat-list-base .mat-list-item {
+        color: $primary-contrast;
+      }
+    }
   }
 }
